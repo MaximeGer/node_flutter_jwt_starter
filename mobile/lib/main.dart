@@ -29,12 +29,6 @@ class MyApp extends StatelessWidget {
           key: state.pageKey,
           child: const JwtChecker(screen: HomeScreen()),
         ),
-        // routes: [
-        //   GoRoute(
-        //     path: ":id",
-        //     pageBuilder: (context, state) => MaterialPage(child: const ExerciseDetails()),
-        //   )
-        // ]
       ),
       GoRoute(
         path: '/login',
