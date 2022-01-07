@@ -7,6 +7,7 @@ A project template to make a Flutter app linked to a NodeJS API with a JWT authe
 - Flutter
   - go_router
 - NodeJS
+  - express
   - swagger
 - PostgreSQL
 - Docker
