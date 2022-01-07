@@ -1,6 +1,6 @@
 # flutter_jwt_authentication
 
-A fullstack template to make a Flutter app linked to an API with a JWT authentication.
+A fullstack template to make a Flutter app linked to a NodeJS API with a JWT authentication.
 
 ## List of technologies used
 
