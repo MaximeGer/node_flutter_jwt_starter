@@ -1,6 +1,6 @@
-# flutter_jwt_authentication
+# JWT Authentication with Flutter, NodeJS and PostgreSQL
 
-A fullstack template to make a Flutter app linked to a NodeJS API with a JWT authentication.
+A project template to make a Flutter app linked to a NodeJS API with a JWT authentication.
 
 ## List of technologies used
 
