@@ -11,7 +11,7 @@ A fullstack template to make a Flutter app linked to a NodeJS API with a JWT aut
 - PostgreSQL
 - Docker
 
-## Initialization
+## Environment initialization
 
 Copy/paste all the templates and rename them without the '.example' part:
 
