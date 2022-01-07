@@ -1,8 +1,19 @@
 # flutter_jwt_authentication
 
+A fullstack template to make a Flutter app linked to an API with a JWT authentication.
+
+## List of technologies used
+
+- Flutter
+  - go_router
+- NodeJS
+  - swagger
+- PostgreSQL
+- Docker
+
 ## Initialization
 
-copy/paste all the templates and rename them without the '.example' part:
+Copy/paste all the templates and rename them without the '.example' part:
 
 - /api/.example.docker.env
 - /api/.example.env
