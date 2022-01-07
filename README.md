@@ -1,6 +1,6 @@
-# flutter_jwt_authentication
+# JWT Authentication with Flutter, NodeJS and PostgreSQL
 
-A fullstack template to make a Flutter app linked to an API with a JWT authentication.
+A project template to make a Flutter app linked to a NodeJS API with a JWT authentication.
 
 ## List of technologies used
 
@@ -11,7 +11,7 @@ A fullstack template to make a Flutter app linked to an API with a JWT authentic
 - PostgreSQL
 - Docker
 
-## Initialization
+## Environment initialization
 
 Copy/paste all the templates and rename them without the '.example' part:
 
@@ -23,7 +23,7 @@ Copy/paste all the templates and rename them without the '.example' part:
 
 docker compose up --build
 
-## Install Manually
+## Install manually
 
 DB:
 
