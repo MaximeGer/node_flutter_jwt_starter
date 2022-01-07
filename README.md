@@ -23,7 +23,7 @@ Copy/paste all the templates and rename them without the '.example' part:
 
 docker compose up --build
 
-## Install Manually
+## Install manually
 
 DB:
 
