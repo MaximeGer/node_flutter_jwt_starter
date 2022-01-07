@@ -14,17 +14,17 @@ docker compose up --build
 
 ## Install Manually
 
+DB:
+
+````shell
+/db/scripts/init.sql
+````
+
 Api:
 
 ````shell
 npm install
 npm start
-````
-
-DB:
-
-````shell
-/db/scripts/init.sql
 ````
 
 Flutter:
