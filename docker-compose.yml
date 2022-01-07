@@ -1,0 +1,21 @@
+version: "3.9" # optional since v1.27.0
+services:
+  api:
+    hostname: api
+    build: api
+    restart: always
+    ports:
+      - 3000:3000
+    depends_on:
+      - db
+
+  db:
+    hostname: db
+    build: db
+    restart: always
+    env_file:
+      - api/.docker.env
+    ports:
+      - 2345:5432
+    volumes:
+      - ./db/scripts:/docker-entrypoint-initdb.d/
