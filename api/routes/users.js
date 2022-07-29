@@ -3,7 +3,6 @@ var router = express.Router();
 const pool = require("../config/db_connect");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const saltRounds = 10;
 
 /**
  * @swagger
@@ -124,7 +123,7 @@ router.post("/login", function (req, res, next) {
  *              $ref: '#/components/schemas/User'
  */
 router.post("/sign-in", function (req, res, next) {
-  bcrypt.hash(req.body.password, saltRounds, (err, hash) => {
+  bcrypt.hash(req.body.password, bcrypt.genSalt(6), (err, hash) => {
     pool.query(
       "INSERT INTO users(email, password) VALUES ($1, $2) RETURNING *",
       [req.body.email, hash],
