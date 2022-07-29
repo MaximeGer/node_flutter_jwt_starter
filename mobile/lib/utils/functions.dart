@@ -23,7 +23,7 @@ Future<String> login(String email, String password) async {
   }
   final response = await post(Uri.parse("$apiUrl/auth/login"),
       headers: {
-        "workout-api-key": apiKey,
+        "api-key": apiKey,
         "Content-Type": "application/json",
         "accept": "application/json"
       },
@@ -47,7 +47,7 @@ Future<String> signin(String email, String password) async {
   }
   final response = await post(Uri.parse("$apiUrl/auth/sign-in"),
       headers: {
-        "workout-api-key": apiKey,
+        "api-key": apiKey,
         "Content-Type": "application/json",
         "accept": "application/json"
       },

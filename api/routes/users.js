@@ -133,6 +133,7 @@ router.post("/sign-in", function (req, res, next) {
           if (error.message.includes("duplicate key")) {
             return res.status(400).json({ message: "This email is already used", });
           }
+          
           throw error;
         }
         return res.status(201).json(results.rows);
